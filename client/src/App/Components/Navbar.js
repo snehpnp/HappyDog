@@ -21,6 +21,7 @@ export function Navbar() {
                 <a className="nav-link disabled" href={"###"} tabindex="-1" aria-disabled="true">Disabled</a>
               </li>
             </ul>
+            
             <form className="d-flex">
               <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
               <button className="btn btn-outline-success" type="submit">Search</button>
@@ -31,5 +32,3 @@ export function Navbar() {
     )
 }
 export default Navbar;
-
-
