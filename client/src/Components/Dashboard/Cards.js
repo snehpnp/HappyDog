@@ -1,12 +1,12 @@
 import React from 'react'
-
+import '../Css/Navbar.css'
 
 function Cards() {
   return (
  <>
  
    {/* Cards */}
-   <div class="row row-cols-1 row-cols-md-3 g-4">
+   <div class="row row-cols-1 row-cols-md-3 g-4 mb-2 mb-lg-1">
         {/* Catd 1 */}
         <div class="card">
           <img class="card-img" src="https://s3.eu-central-1.amazonaws.com/bootstrapbaymisc/blog/24_days_bootstrap/vans.png" alt="Vans" />

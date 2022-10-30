@@ -2,15 +2,15 @@ import React from 'react'
 import Advertisment from './Dashboard/Advertisment'
 import Cards from './Dashboard/Cards'
 
-function Dashboard() {
+
+function Home() {
   return (
-    <>
-      <Advertisment />
+   <>
+   {/* <h1>Hello</h1> */}
+      {/* <Advertisment /> */}
       <Cards />
-
-    </>
-
+   </>
   )
 }
 
-export default Dashboard
+export default Home

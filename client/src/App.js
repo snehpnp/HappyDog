@@ -1,15 +1,33 @@
+import React from "react";
 import Navbar from './Components/Navbar'
-import Dashboard from '../src/Components/Dashboard'
-import Login from './Components/Login';
+import Home from './Components/Home';
+import Blogs from './Components/Blogs'
+import Goggrommer from './Components/Doggroomer'
 
+
+import {
+  Routes,
+  Route,
+  BrowserRouter
+} from "react-router-dom";
 
 function App() {
   return (
-   <>
-   <Navbar />
-  < Dashboard />
-  <Login />
-   </>
+    <>
+
+
+      <BrowserRouter>
+      <Navbar />
+
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/blogs" element={<Blogs />} />
+          <Route path="/doggroomer" element={<Goggrommer />} />
+        </Routes>
+        
+      </BrowserRouter>
+
+    </>
   );
 }
 
