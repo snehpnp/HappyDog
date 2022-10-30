@@ -1,0 +1,12 @@
+.profillgo{
+    width: 40px;
+    height: 40px; 
+     /* background-image: url('https://images.pexels.com/photos/1147818/pexels-photo-1147818.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load');
+    background-size: cover; */
+    display: block;
+    background-color: aliceblue;
+    border-radius: 50%;
+   }
+   .logoPng{
+    border-radius: 30px;
+   }

@@ -1,10 +1,14 @@
+import Navbar from './Components/Navbar'
+import Dashboard from '../src/Components/Dashboard'
+import Login from './Components/Login';
 
-import Dashboard from '../src/Dashboard'
 
 function App() {
   return (
    <>
+   <Navbar />
   < Dashboard />
+  <Login />
    </>
   );
 }
